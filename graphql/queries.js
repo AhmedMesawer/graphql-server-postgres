@@ -1,0 +1,199 @@
+// eslint-disable
+// this is an auto generated file. This will be overwritten
+
+export const getLocation = `query GetLocation($email: String!) {
+  getLocation(email: $email) {
+    email
+    name
+    address
+    phone
+    postal_code
+    city
+    max_group_size
+    duration
+    payment
+    advance_scheduling
+    scheduling_via
+    category_type
+    waiver
+    refund_policy
+    logo
+    opening_hours
+    monday
+    tuesday
+    wednesday
+    thursday
+    friday
+    saturday
+    sunday
+    timing_b
+    timing_c
+    deposit_for_booking
+    special_pricing
+    discount
+    locations
+    summer_winter
+    customization
+    things_to_bring
+    equipment
+    food_beverage
+    age_suitability
+    under_18
+    wheelchair_access
+    payment_processor
+    parking
+    json
+    image_url
+    standard_pricing
+    standard_price_text
+    description
+    activity_id
+    latitude
+    longitude
+  }
+}
+`;
+export const getBooking = `query GetBooking($bookingId: Int!) {
+  getBooking(bookingId: $bookingId) {
+    booking_id
+    email
+    activity_id
+    name
+    image_url
+    amount
+    status
+    times
+  }
+}
+`;
+export const listBookings = `query ListBookings($email: String!) {
+  listBookings(email: $email) {
+    booking_id
+    email
+    activity_id
+    name
+    image_url
+    amount
+    status
+    times
+  }
+}
+`;
+export const listJoinings = `query ListJoinings($email: String!) {
+  listJoinings(email: $email) {
+    joining_id
+    booking_id
+    activity_id
+    name
+    image_url
+    amount
+    status
+    times
+    email
+  }
+}
+`;
+export const listLocations = `query ListLocations {
+  listLocations {
+    email
+    name
+    address
+    phone
+    postal_code
+    city
+    max_group_size
+    duration
+    payment
+    advance_scheduling
+    scheduling_via
+    category_type
+    waiver
+    refund_policy
+    logo
+    opening_hours
+    monday
+    tuesday
+    wednesday
+    thursday
+    friday
+    saturday
+    sunday
+    timing_b
+    timing_c
+    deposit_for_booking
+    special_pricing
+    discount
+    locations
+    summer_winter
+    customization
+    things_to_bring
+    equipment
+    food_beverage
+    age_suitability
+    under_18
+    wheelchair_access
+    payment_processor
+    parking
+    json
+    image_url
+    standard_pricing
+    standard_price_text
+    description
+    activity_id
+    latitude
+    longitude
+  }
+}
+`;
+export const listNearestLocations = `query ListNearestLocations($latitude: String, $longitude: String) {
+  listNearestLocations(latitude: $latitude, longitude: $longitude) {
+    email
+    name
+    address
+    phone
+    postal_code
+    city
+    max_group_size
+    duration
+    payment
+    advance_scheduling
+    scheduling_via
+    category_type
+    waiver
+    refund_policy
+    logo
+    opening_hours
+    monday
+    tuesday
+    wednesday
+    thursday
+    friday
+    saturday
+    sunday
+    timing_b
+    timing_c
+    deposit_for_booking
+    special_pricing
+    discount
+    locations
+    summer_winter
+    customization
+    things_to_bring
+    equipment
+    food_beverage
+    age_suitability
+    under_18
+    wheelchair_access
+    payment_processor
+    parking
+    json
+    image_url
+    standard_pricing
+    standard_price_text
+    description
+    activity_id
+    latitude
+    longitude
+  }
+}
+`;
